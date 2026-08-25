@@ -1,0 +1,8 @@
+# build artifacts
+src/shardstat
+*.o
+
+# per-shard intermediates (regenerable; see README "Reproducing")
+_agg/
+.venv/
+todo.md
